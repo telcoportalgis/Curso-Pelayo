@@ -1,2 +1,2 @@
 # Curso Pelayo Bootstrap 2017
-microformats.org
+microformats.org y microdata
