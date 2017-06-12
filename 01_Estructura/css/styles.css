@@ -1,0 +1,5 @@
+.subtitulo {
+    /*Dejamos los em por compatibilidad con navegadores antiguos*/
+    font-size: 0.8em;
+    font-size: 1.5rem
+}
