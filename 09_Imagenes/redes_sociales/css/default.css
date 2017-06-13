@@ -1,0 +1,116 @@
+body {
+	margin: 3em 9em;
+	}
+header {
+	width: 50%;
+	margin: 2em auto 4em auto;
+	padding: 2em 1em;
+	background-color: maroon;
+	color: white;
+	color: beige;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px silver;
+	}
+ header > p {
+ 	font-size: 1.3em;
+}
+
+header, figure {
+ 	text-align: center;
+}
+
+article {
+	overflow: auto;
+	margin: 0.3em 1em;
+
+		}
+
+	article p {
+		width: 40%;
+		float: left;
+		padding: 0em 1em;
+		box-sizing: border-box;
+		}
+
+	article figure {
+		width: 60%;
+		float: left;
+		margin: 0px;
+		box-sizing: border-box;
+	}
+
+		article figure img {
+			width: 100%;
+		}
+ 
+/*
+footer {
+ 	margin-top:  2em;
+ 	border-top: solid 1px silver;
+ 	color: maroon;
+ 	}
+ 	footer p {
+ 		margin: 0.2em;
+ 	}
+*/
+
+footer {
+    height: 10%;
+    min-height: 160px;
+    border: solid 1px black;
+    box-shadow: 2px -3px 3px 1px silver;
+    position: fixed;
+    bottom: 2%;
+    left: 1%;
+    right: 1%;
+    background-color: hsla(60,55%,91%,0.7) ;/*beige con transparencia*/
+	}
+	footer h2 {
+        width: 60%;
+        margin: 0.2em auto;
+        text-align: center;
+    }
+    footer p {
+       text-align: center;
+    }
+    footer a.container {
+	    width: 10%;
+	    margin-left: 3%;
+	    margin-right: 3%;
+	    float:left;
+	}
+	footer div.icono {
+        height: 50px;
+		width: 50px;
+		margin: 1em auto;
+		border: solid 1px black;
+	}
+	footer div#facebook {background-color: silver;
+	    background: url(../img/social-header.png);
+        background-position: 150px 205px; /* x px / y px de la esquina superior del icono*/
+    }
+    footer div#twiter {
+        background-color: silver;
+        background: url(../img/social-header.png);
+        background-position: 250px 50px; /*Icono 5-1*/
+    }
+    footer div#linkedin {
+        background-color: silver;
+        background: url(../img/social-header.png);
+        background-position: 450px 100px; /*Icono 9-2*/
+    }
+    footer div#google {
+        background-color: silver;
+        background: url(../img/social-header.png);
+        background-position: 300px 154px; /*Icono 6-3*/
+    }
+    footer div#tumblr {
+        background-color: silver;
+        background: url(../img/social-header.png);
+        background-position: 300px 50px; /*Icono 6-1*/
+    }
+    footer div#youtube {
+        background-color: silver;
+        background: url(../img/social-header.png);
+        background-position: 50px 50px; /*Icono 1-1*/
+    }

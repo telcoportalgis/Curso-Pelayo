@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de HTML5">
+	<meta name="generator" content="Sublime Text" >
+	<meta charset="UTF-8">
+	<title>Sombras</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="icon" href="fav_icon.png">
+	<style type="text/css">
+		h1 {margin-left:40px;
+			text-shadow: 5px 5px 5px rgb(150,150,150)
+			}
+		article {
+			position: relative;
+			top: -80px;
+			height: 380px;
+		}	
+		article div#d1 {position:absolute;
+			top:80px;
+			left:40px;
+			width:200px;
+			height:200px;
+			border: 2px solid black;
+			border-radius: 20px;
+			}
+		article div#d2 {position:absolute;
+			top:80px;
+			left:300px;
+		}			
+		article p {width:100px;
+			height:100px;
+			border: 2px solid black;}	
+		article p#p1 {border-top-left-radius: 80px 50px;}
+		article p#p2 {border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;}
+		article p#p3 {padding: 0px;
+			border-radius: 100px;}
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<h1>Esquinas redondeadas</h1>
+	</header>
+	<article>
+		<div id="d1"></div>
+		<div id="d2">
+			<p id="p1"></p>
+			<p id="p2"></p>
+			<p id="p3"></p>
+		</div>
+	</article>
+	<footer>
+		<address>
+	        <p>Aleajndro L. Cerezo</p>
+			<p>Cle Formacion</p>
+	      	<p><a class="email" href="mailto:alcerezo@movistar.es">alcerezo@movistar.es</a></p>
+		</address>
+	</footer>	
+
+</body>

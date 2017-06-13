@@ -1,0 +1,60 @@
+@import url("default.css");
+
+@font-face {font-family: Bavand;
+	    	src: url('../fonts/Bavand-Regular.ttf') format('truetype');}
+
+h2 {
+	font-family:"Averia Sans Libre", sans-serif;
+}
+	h2:nth-of-type(2n) {
+		color: blue;
+		font-family: Pacifico, cursive;
+	} 
+
+ul {
+	list-style-type: none;
+	font-family:"Bodoni",sans-serif;
+	font-size:1.2em;	
+}
+	ul:nth-of-type(1) > li:nth-of-type(1) { font-family:serif;}
+	ul:nth-of-type(1) > li:nth-of-type(2) { font-family:sans-serif;}	
+	ul:nth-of-type(1) > li:nth-of-type(3) { font-family:cursive;}	
+	ul:nth-of-type(1) > li:nth-of-type(4) { font-family:fantasy;}	
+	ul:nth-of-type(1) > li:nth-of-type(5) { font-family:monospace;}	
+
+
+	ul:nth-of-type(2) > li:nth-of-type(1) {text-decoration:underline; }	
+	ul:nth-of-type(2) > li:nth-of-type(2) {text-decoration:line-through; }	
+	ul:nth-of-type(2) > li:nth-of-type(3) {text-decoration:overline; }	
+	ul:nth-of-type(2) > li:nth-of-type(4) {text-decoration:blink; }	
+	ul:nth-of-type(2) > li:nth-of-type(5) {text-decoration:none }	
+
+	ul:nth-of-type(3) > li:nth-of-type(1) {text-transform:none; }	
+	ul:nth-of-type(3) > li:nth-of-type(2) {text-transform:uppercase; }	
+	ul:nth-of-type(3) > li:nth-of-type(3) {text-transform:lowercase;  }	
+	ul:nth-of-type(3) > li:nth-of-type(4) {text-transform:capitalize; }	
+
+p {
+	font-family:"Bodoni",sans-serif;
+	font-size:1.5em
+}
+	p.intro:first-letter {font-size: 200%;}
+	p.intro:first-line {font-weight: bold;}
+	p#p2{
+		font-family:"Times New Roman",serif;
+		font-size:14px;	
+	}
+
+span.Autor{
+	font-weight:bold;
+	text-decoration:underline;
+	color:blue;
+}
+q{
+	font-style:italic;
+	color:green;
+}
+address, p.Fuentes{
+	font-size:12px;
+}
+

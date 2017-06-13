@@ -1,0 +1,30 @@
+body {
+	margin: 3em 9em;
+	}
+header {
+	width: 50%;
+	margin: 2em auto 4em auto;
+	padding: 2em 1em;
+	background-color: maroon;
+	color: white;
+	color: beige;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px silver;
+	}
+header > p {
+ 	font-size: 1.3em;
+ }
+footer {
+ 	margin-top:  2em;
+ 	border-top: solid 1px silver;
+ 	color: maroon;
+ 	}
+ 	footer p {
+ 		margin: 0.2em;
+ 	}
+header, footer, figure {
+ 	text-align: center;
+ 	}
+
+article p:nth-child(2) {color: maroon;} 
+article p:nth-of-type(2) {color: blue;} 
