@@ -1,0 +1,78 @@
+p {
+    font-size: 2em;
+}
+
+p.clase {
+    font-size: 2em;
+}
+
+/*No deben usarse*/
+#p1 {
+    font-size: 2em;
+}
+
+[name] {
+    font-size: 2em;
+}
+
+[name="pepe"] {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav+div {
+    border: 1px solid;
+}
+
+nav~div {
+    border: 1px solid;
+}
+
+/*Pseudoclases y pseudoelementos*/
+
+p::after
+p::before
+
+p:hover
+input:focus
+input:enabled
+input:disabled
+a:active
+a:visited
+
+p:nth-child(2n+1) 
+    {color: maroon;} 
+
+p:nth-of-type(2)
+    {color: maroon;} 
+
+p::first-letter {
+    font-size: 2em
+}
+p::first-line {
+    font-size: 2em
+}
+
+body {
+    font-size: 2em;
+    border: 1px solid;
+}
+
+*,*:before, *:after, *::before,*::after  {
+    box-sizing: border-box;
+}
+
+*:not(p):not(a) {
+    color: magenta;
+}
+
+article div:not(:nth-of-type(last)) {
+    margin-right: 3em;
+}

@@ -1,0 +1,34 @@
+﻿@import "variables.css";
+
+p[itemtype="Biblio"] {
+
+	border: 1px solid silver;
+	border-radius: 10px;
+	background-color: PapayaWhip;
+	font-size: 1em;
+	box-shadow: 5px 5px 3px 2px silver;
+	color: dimgray;
+	padding: 1em;
+
+}
+
+cite[itemprop="Titulo"] {
+	font-size: 1.4em;
+	quotes: "«" "»";
+	}
+cite[itemprop="Titulo"]:before {content: var(--titulo);}
+/*cite[itemprop="Titulo"]:before {content: open-quote;}*/
+cite[itemprop="Titulo"]:after {content: close-quote;}
+
+cite[itemprop="Tít_Original"] {font-size: 1.2em}
+strong[itemprop="Autor"] {font-size: 1.3em; color: black;}
+span[itemprop="Serie"] {color: navy;}
+span[itemprop="Editorial"] {color: maroon;}
+time {font-size: 0.9em; color: teal;}
+time[itemprop="Fecha_Original"] {}
+time[itemprop="Fecha_Edicion"] {}
+		    
+		    
+			
+
+

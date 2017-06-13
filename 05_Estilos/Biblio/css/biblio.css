@@ -1,0 +1,32 @@
+﻿
+p.Biblio {
+
+	border: 1px solid silver;
+	border-radius: 10px;
+	background-color: PapayaWhip;
+	font-size: 1em;
+	box-shadow: 5px 5px 3px 2px silver;
+	color: dimgray;
+	padding: 1em;
+
+}
+
+cite.Titulo {
+	font-size: 1.4em;
+	quotes: "«" "»";
+	}
+cite.Titulo:before {content: open-quote;}
+cite.Titulo:after {content: close-quote;}
+
+cite.Tit_Original {font-size: 1.2em;}
+strong.Autor {font-size: 1.3em; color: black;}
+span.Serie {color: navy;}
+span.Editorial {color: maroon;}
+time {font-size: 0.9; color: teal;}
+time.Fecha_Original {}
+time.Fecha_Edicion {}
+		    
+		    
+			
+
+
