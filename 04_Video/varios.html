@@ -1,0 +1,43 @@
+<!DOCTYPE>
+
+<html>
+<head>
+	<title>Galeria de videos</title>
+	<link rel="stylesheet" href="css/varios.css">
+	<meta charset="utf-8">
+</head>
+<body>			
+	<figure>
+ 		<video class="polaroid RotarDer centrado" width="300" height="315" 
+ 			src="video/gta.mp4" type="video/mp4" controls></video>
+ 		<figcaption>Ejemplo de mp4 en el servidor con la etiqueta vídeo</figcaption>
+ 	</figure>
+	<figure>
+		<video  class="polaroid RotarDer centrado" width="300" height="315"
+			data="https://www.youtube.com/embed/Wcu_d62jn0w" controls></video>
+		<figcaption>Ejemplo de fichero en youtube (?) con la etiqueta vídeo</figcaption>
+	</figure>
+	<figure>
+		<iframe class="polaroid RotarDer centrado" width="300" height="315" 
+			src="video/gta.mp4" type="video/mp4"></iframe>
+		<figcaption>Ejemplo de mp4 en el servidor con la etiqueta iframe</figcaption>
+	</figure>
+	<figure>
+		<object  class="centrado polaroidContenedor RotarIzq" width="300" height="315"
+			data="https://www.youtube.com/embed/Wcu_d62jn0w"></object> 
+		<figcaption>Ejemplo de fichero en youtube (?) con la etiqueta object</figcaption>
+	</figure>
+	<figure>
+    	<embed src="https://www.youtube.com/embed/Wcu_d62jn0w"  
+	    	allowfullscreen="false" allowscriptaccess="always" />
+		<figcaption>Ejemplo de fichero en youtube (?) con la etiqueta embed/figcaption>
+	</figure>
+	<footer>
+		<address>
+	        <p>Aleajndro L. Cerezo</p>
+			<p>Cle Formacion</p>
+	      	<p><a class="email" href="mailto:alcerezo@movistar.es">alcerezo@movistar.es</a></p>
+		</address>
+	</footer>
+</body>
+</html>
