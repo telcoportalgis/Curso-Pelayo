@@ -1,0 +1,54 @@
+$colorpelayo: #555555;
+$parpadeo :'parpadeo';
+
+@mixin global($size:8rem){
+    font-size: $size;
+    text-decoration: underline;
+    animation-name: parpadeo;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+header{
+    h1{
+        color: $colorpelayo;
+        @include global(4rem);
+    }
+}
+
+.amarillo {
+    color: yellow;
+    font-size: 1.8 rems;
+}
+
+article{
+    >p{
+        @extend .amarillo;
+        @include global();
+    }
+}
+
