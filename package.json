@@ -1,0 +1,27 @@
+{
+  "name": "cursopelayo",
+  "description": "Ejercicios de curso",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telcoportalgis/Curso-Pelayo.git"
+  },
+  "keywords": [
+    "CSS3",
+    "HTML"
+  ],
+  "author": "Alejandro Cerezo",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
