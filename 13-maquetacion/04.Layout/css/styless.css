@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: papayawhip;
+}
+
+main{
+    width: 90%;
+    max-width: 960px;
+    margin:1rem auto;
+}
+
+nav menu-item{
+    width: 12%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+section, aside{
+    float:left;
+}
+
+section{
+    width: 70%;
+    margin-right: 5%;
+}
+
+section article{
+    margin-top: 2em;
+}
+
+section article>div{
+    column-count: 2;
+    margin-top: 2em;
+}
+
+section article p:nth-of-type(1){
+    margin-top: 0em;
+}
+
+aside{
+    width: 25%;
+}
