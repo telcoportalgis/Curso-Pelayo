@@ -1,0 +1,105 @@
+body {
+	width: 100%;
+	max-width: 960px;
+	min-width: 480px;
+	margin: 0em auto;
+	overflow: auto;
+}
+
+header, nav, footer {
+	width: 100%;
+	margin: 0em auto;
+}
+
+section.main {
+	box-sizing: border-box;
+	width: 60%;
+	margin: 1em 1% 0em 2%;
+	float: left;
+	clear: left;
+}
+
+    section.main article img {
+        width: 50%;
+    }
+        section.main article:nth-of-type(odd) img {
+            float: right;
+            padding-left: 1em;
+
+        }
+        section.main article:nth-of-type(even) img {
+            float: left;
+            padding-right: 1em;
+        }
+
+aside { /*antess 4/12 */
+	box-sizing: border-box;
+	width: 34%;
+	margin: 1em 2% 0em 1%;
+	float: left;
+	clear: right;
+}
+
+    aside figure {
+        width: 90%;
+        margin: 0em auto;
+    }
+
+    aside img {
+        width: 100%;
+    }
+
+.clear {
+	width: 100%;
+	clear: both;
+}
+
+        @media screen and (max-width:768px) { /* tablets */
+
+			section.main, aside {
+            width: auto;
+            margin: 20px 5%;
+            }
+
+				aside article {
+					overflow: auto;
+				}
+		    	aside p {
+		    		box-sizing: border-box;
+		    		width: 50%;
+		        	float: left;
+		    	}
+		    	aside figure {
+		    		box-sizing: border-box;
+		        	width: 50%;
+		        	float: right;
+		        	margin: 0em auto;
+		    	}
+		    }
+
+        @media screen and (max-width:480px) { /*  */
+
+        }
+
+
+/*
+           article, aside > section {
+            width: auto;
+            margin: 20px 5%;
+            }
+
+            nav#top {
+                display: none;
+            }
+
+            nav#bottom {
+                display: block;
+                clear: both;
+            }
+
+            nav li {
+                display: block;
+            }
+        }
+
+*/

@@ -1,0 +1,84 @@
+
+body{
+    background-color: beige;
+}
+
+/*------ Cabecera (Header) ------*/
+header{
+    /* class="grid_10 prefix_1 suffix_1 */
+    font-family: Arial;
+    text-align: center;
+}
+    header h1 {
+        font-size: 3em;
+        margin-bottom: 0em;
+    }
+
+    header p {
+        font-size: 2em;
+        margin-top: 0em;        
+    }
+/*------ Menu (Nav) ------*/
+nav {
+    border-radius: 5px;
+    background-color: rgba(246,20,25,0.7);
+    overflow: auto;
+    height: 2em;
+    padding-top: 0.7em;
+}
+
+    nav ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: center;
+    }
+
+    nav li{ /* class="grid_1 suffix_1" */
+        display: inline-block;
+        width: 15%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color:initial;
+    }
+/*------ Seccion principal (section.main) ------*/
+section.main {
+}
+
+    section.main article{
+        overflow: auto;
+    }
+
+    section.main article h2 {
+        color: brown;
+    }
+
+/*------ Seccion adicional (aside) ------*/
+aside{
+}
+    aside section {
+        background-color: papayawhip;
+        box-shadow: 3px 3px 3px 3px silver;
+
+    }
+
+    aside h2, h3, p{
+        padding: 0.1em 1em;
+    }
+
+    aside ul{
+        list-style-type: none;
+        padding-bottom: 0.5em;
+    }
+
+/*------ Seccion final (footer) ------*/
+
+footer{
+    margin-top: 1em;
+    padding: 1em 0em;
+    border-radius: 5px;
+    background-color: rgba(246,20,25,0.7);
+    text-align: center;
+}
